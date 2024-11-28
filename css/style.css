@@ -1,0 +1,8 @@
+header ul li {
+    display: inline-block;
+    text-decoration: none;
+    margin-right:  10px;
+}
+header ul li a {
+    text-decoration: none;
+}
