@@ -98,3 +98,17 @@ ul li{
     clear: both;
     margin: 10px;
 }
+.overflow{
+    background-color: gold;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    overflow: scroll;
+    display: inline-block;
+}
+ .content p:nth-child(2){
+     overflow: hidden;
+ }
+.content p:nth-child(3){
+   overflow-x: scroll;
+}
