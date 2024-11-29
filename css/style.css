@@ -6,3 +6,61 @@ header ul li {
 header ul li a {
     text-decoration: none;
 }
+.container-normalizeblock{
+    background-color: darkgreen;
+}
+.container-normalizeinline{
+    background-color: red;
+}
+.container-resetblock{
+    background-color: darkred;
+}
+.container-resetinline{
+    background-color: green;
+}
+.container-block div{
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+    border: 1px solid black;
+
+}
+
+.container-inline div{
+    display: inline;
+    background-color: darkred;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.container-inlineblock div{
+    display:inline-block;
+    background-color: aqua;
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+}
+.container-inlineblock div:nth-child(2n) {
+    visibility: hidden;
+}
+
+.container-flex div{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: darkgreen;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.boxsizing{
+    background-color: greenyellow;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    /*padding: 10px;*/
+    text-align: center;
+    box-sizing: content-box;
+}
