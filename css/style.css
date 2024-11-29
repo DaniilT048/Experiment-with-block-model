@@ -64,3 +64,37 @@ header ul li a {
     text-align: center;
     box-sizing: content-box;
 }
+.fl{
+    background-color: goldenrod;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    float: left;
+}
+
+.flsecond{
+    background-color: goldenrod;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    float: right;
+}
+.flthird{
+    background-color: goldenrod;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    float: none;
+}
+
+.float {
+    float: left;
+    padding: 10px;
+}
+ul li{
+    list-style: none;
+}
+.clearfix{
+    clear: both;
+    margin: 10px;
+}
